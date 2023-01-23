@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -15,6 +16,7 @@
 }
 .left{
     width:60%;
+   
     background: url(./images/bg-pattern-desktop.svg);
     background-size: cover;
 }
@@ -24,5 +26,83 @@
     background-size: cover;
 }
 nav{
+    margin-left: 40px;
+    padding:2em 5em;
+}
+.color_text{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #EE9B93;
+    font-weight: 300;
+    letter-spacing: 15px;
+
+}
+.bold_text{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+.heading{
+    line-height: 1;
+    margin: 1em 7em ;
+}
+.para{
+    width: 50%;
+    margin: 1em 7em ;
+    font-size: 15px;
+    color: #EE9B93;
+}
+.input_container{
+    margin: 2em 7em 0 7em;
+     width: 55%; 
+     display: flex;
+     justify-content: center;
+    position: relative;
+}
+.input{
     
+    padding: 20px;
+   
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #EE9B93  ;
+}
+button{
+    position: absolute;
+    top:0;   
+    right: -41px;
+    width: 100px;
+    border-radius: 32px;
+    padding: 18px;
+    border: none;
+    background-color:#EE9B93;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+.error{
+    position: absolute;
+    display: none;
+}
+.imm{
+    position: absolute;
+    top:0;
+     width:90px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 100%;
+    right: 0;;
+}
+.red{
+    color: red;
+    font-size: 12px;
+    margin-left: 150px;
+}
+.error_message1{
+    display: none;
+}
+.error_message2{
+    display: none;
 }
